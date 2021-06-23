@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <style data-merge-styles="true"></style>
+    <title>Calgary Multi Stake 2021 Youth Conference</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+
+</head>
+
+<body>
+
+
+    <section class="hero is-link">
+
+
+
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">
+
+                    Calgary North and West Stake Youth Conference
+
+
+                </p>
+            </div>
+            <div class="container">
+                <p class="subtitle">
+                    Mission Assignments
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="section content">
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="content container">
+            <p>This event website is operated by local members of <a href="https://www.churchofjesuschrist.org">The
+                    Church of Jesus Christ of Latter-day Saints</a> and is not an official website of The Church. For
+                information about this event, please send and email to calgarynorthstakeyouth@gmail.com.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Check if there are any navbar burgers
+            if ($navbarBurgers.length > 0) {
+
+                // Add a click event on each of them
+                $navbarBurgers.forEach(el => {
+                    el.addEventListener('click', () => {
+
+                        // Get the target from the "data-target" attribute
+                        const target = el.dataset.target;
+                        const $target = document.getElementById(target);
+
+                        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                        el.classList.toggle('is-active');
+                        $target.classList.toggle('is-active');
+
+                    });
+                });
+            }
+
+        });
+    </script>
+
+
+</body>
+
+
+</html>
